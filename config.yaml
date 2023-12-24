@@ -1,0 +1,30 @@
+# authentication credentials
+credentials:
+  usernames:
+    nafizul:
+      email: nafizul@gmail.com
+      name: Nafizul Islam
+      password: $20d6a120b214e4cd318fd76f6eba6e1dc0dc1a82418d6d9ad7b4907f9417de2e. #Placeholder for hashed password of 'nafiz74'
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - nafizul@growwithdata.net
+
+
+
+
+db:
+  host: "127.0.0.1"
+  user: "root"
+  passwd: "kjdljk475"
+  database: "ExpenseDB"
+  auth_plugin: "mysql_native_password"
+
+
+email_sender:
+  email: "kalim.resource@gmail.com"
+  pass: "abc"
